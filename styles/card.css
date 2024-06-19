@@ -1,0 +1,68 @@
+.artigoum{
+    padding-top:  60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid var(--cor-azul);
+    margin-bottom: 1.5em;
+}
+
+.artigo{
+width: 272px;
+display: flex;
+flex-direction: column;
+padding: 0 0 1.5em 0 ;
+}
+
+.cartao{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.video{
+    width: 272px;
+    height: 153px;
+}
+
+.main{
+    width: 1137px;
+    background: #E5F1FF;
+    padding: 1em 0 1em 10vw;
+}
+
+.video_titulo{
+    width: 272px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.video_titulogrupo{
+    display: flex;
+    flex-direction: row;
+    padding: .5em 0 0 0;
+    align-items: center;
+    gap: .5em;
+}
+
+.iconevideo{
+    width: 32px;
+    height: 32px;
+}
+
+.video_visualizacao{
+    font-size: 14px;
+    font-weight: 400;
+    padding: .5em 0 .5em 3em;
+}
+
+@media screen and (min-width:834px){
+    .main{
+        padding: 1em 5vw;
+    }
+    
+    .artigoum{
+        padding: 110px 4vw 0 4vw ;
+    }
+
+}

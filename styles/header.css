@@ -1,0 +1,56 @@
+.cabecalho_painel{
+    display: flex;
+    flex-direction: row;
+    padding: .5em 0;
+    background: var(--cor-begeclaro);
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    width: 100%;
+
+}
+
+.cabecalho_pesquisa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.pesquisar{
+    background: url(../img/Desktop/Elementos_Header/keyboard.png) no-repeat !important;
+
+    text-align: center;
+    padding: .1em;
+    width: 406.23px;
+    height: 40px;
+
+}
+
+.pesquisarcaixa{
+    background: var(--cor-bege);
+    margin: 8px 12.25px;
+    height: 24px;
+    width: 24px;
+    border: 1px solid var(--cor-bege);
+  
+}
+
+
+.icones{
+    height: 24px;
+    width: 24px;
+    padding: 0 .5em;
+}
+
+.logos{
+    width: 162px;
+    height: 40px;
+}
+
+.cabecalho_icone{
+    display: flex;
+    flex-direction: row;
+    margin-right: .5em;
+}
